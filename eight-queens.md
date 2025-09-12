@@ -10,7 +10,7 @@ The Eight Queens problem is the hello-world of logic programming.
 - How recursion naturally models complex problems
 - The difference between procedural and declarative programming
 
-In [eight-queens.pl](eight-queens.pl) you will find the following code
+In [eight-queens.pl](src/eight-queens.pl) you will find the following code
 
 ```prolog
 solution(Queens) :- 
