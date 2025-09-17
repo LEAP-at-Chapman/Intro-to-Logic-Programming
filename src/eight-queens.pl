@@ -1,5 +1,5 @@
 solution(Queens) :- 
-    length(Queens, 8),
+    length(Queens, 4),
     queens(Queens).
 
 queens([]).
@@ -7,7 +7,7 @@ queens([queen(Row, Col) | Others]) :-
     queens(Others),
     length(Others, OthersLength),
     Row is OthersLength + 1,
-    member(Col, [1,2,3,4,5,6,7,8]),
+    member(Col, [1,2,3,4]),
     noattack(queen(Row, Col), Others).
 
 noattack(_, []).
