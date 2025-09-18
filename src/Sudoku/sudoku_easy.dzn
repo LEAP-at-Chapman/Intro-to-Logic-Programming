@@ -1,0 +1,15 @@
+% Easy Sudoku puzzle data
+n = 9;
+box_size = 3;
+
+% Input puzzle (0 = empty cell)
+initial = 
+[| 5,3,4,6,7,8,9,1,0 |  % Row A: missing A9
+   6,7,2,1,9,5,3,4,8 |  % Row B: complete  
+   1,9,8,3,4,2,5,6,7 |  % Row C: complete
+   8,5,9,7,6,1,4,2,3 |  % Row D: complete
+   4,2,6,8,5,3,7,9,1 |  % Row E: complete
+   7,1,3,9,2,4,8,5,6 |  % Row F: complete
+   9,6,1,5,3,7,2,8,4 |  % Row G: complete
+   2,8,7,4,1,9,6,3,5 |  % Row H: complete
+   3,4,5,2,8,6,1,7,0 |]; % Row I: missing I9
