@@ -2,6 +2,8 @@
 
 This directory contains multiple implementations of Sudoku solvers to illustrate the advantages of constraint programming with specialized solvers as compared to pure logic programming.
 
+See [Constraint Programming and MiniZinc](minizinc-prolog-comparison.md) for a detailed comparison.
+
 ## Files
 
 ### MiniZinc Implementation (Constraint Programming)
